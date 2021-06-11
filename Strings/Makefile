@@ -1,5 +1,5 @@
 all:
-	nasm -g -f elf64 -o reverse.o reverse.asm
+	nasm -g -f elf64 -o reverse.o reversed-strings.asm
 	ld -o reverse reverse.o
 
 clean:
